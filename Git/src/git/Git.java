@@ -19,13 +19,17 @@ public class Git {
         System.out.println("Hello World!!");
         Random randomGenerator = new Random();
         int randomInt = randomGenerator.nextInt(100);
-        
+        int cont;
         if(randomInt%2==0){
             System.out.println("Portugal");
         }
         else{
             System.out.println("Aveiro");
         }
+        for(cont=0;cont<10;cont++){
+            System.out.printf("%d",cont);
+        }
+        
     }
     
 }
